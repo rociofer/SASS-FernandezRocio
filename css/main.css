@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none; }
+
+header .formatoTitulo1 {
+  color: blueviolet;
+  text-align: center;
+  font-size: 90px;
+  font-family: 'Caveat', cursive;
+  border: dotted 10px grey;
+  border-radius: 50px;
+  margin: 20px; }
+
+.menuGeneral {
+  font-family: 'Kalam', cursive;
+  top: 0;
+  z-index: 1;
+  width: auto;
+  height: 50px;
+  position: sticky;
+  display: flex;
+  justify-content: center; }
+  .menuGeneral ul {
+    display: flex;
+    gap: 20px; }
+    .menuGeneral ul .menu {
+      list-style-type: none;
+      font-size: 20px;
+      font-weight: 600;
+      background-color: #dbc7f1;
+      padding: 8px 7px 8px 7px;
+      border-radius: 50px;
+      margin-top: 10px; }
+      .menuGeneral ul .menu a {
+        color: black; }
+
+h2 {
+  color: blueviolet;
+  font-size: 65px;
+  font-family: 'Caveat', cursive; }
+
+h3 {
+  color: blueviolet;
+  font-size: 40px;
+  font-family: 'Caveat', cursive; }
+
+p {
+  font-size: 20px;
+  font-family: 'Kalam', cursive; }
+
+.formatoFooter {
+  background-color: grey;
+  width: auto;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: right;
+  font-family: 'Kalam', cursive;
+  margin: 4rem 0rem 2rem 0rem; }
+  .formatoFooter p {
+    margin-right: 2rem; }
+
+main .presentacion {
+  display: grid;
+  grid-template-areas: "mirada mirada" "video video" "comoSoy comoSoy";
+  margin: 3rem 0rem 3rem 0rem;
+  gap: 3rem; }
+  main .presentacion .mirada {
+    grid-area: mirada;
+    text-align: center; }
+  main .presentacion .video {
+    grid-area: video;
+    width: 100%; }
+  main .presentacion .comoSoy {
+    grid-area: comoSoy;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center; }
+    main .presentacion .comoSoy .caracteristicas {
+      list-style-type: circle;
+      font-size: 30px;
+      font-weight: 600;
+      font-family: 'Kalam', cursive; }
+    main .presentacion .comoSoy .foto {
+      width: 380px;
+      height: 400px;
+      border-radius: 50px;
+      margin: 1rem; }
+
+main .galeria {
+  grid-area: galeria; }
+  main .galeria .fotitos {
+    text-align: center; }
+  main .galeria .contenedorFotos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; }
+    main .galeria .contenedorFotos .card {
+      background-color: #999999;
+      width: 18rem;
+      text-align: center; }
+      main .galeria .contenedorFotos .card img {
+        width: 100%; }
