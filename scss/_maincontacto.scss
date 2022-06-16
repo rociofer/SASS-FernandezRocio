@@ -1,0 +1,55 @@
+form{
+    font-family: 'Kalam', cursive;
+    margin: 30px 60px 30px 30px;
+}
+
+fieldset{
+    font-size: 20px;
+    padding: 40px;
+    border: 1px solid blueviolet;
+    border-radius: 50px;
+    background-color: rgb(219, 199, 241);
+}
+
+legend{
+    font-size: 40px;
+    color: blueviolet;
+}
+
+.formatoItems{
+    padding: 10px;
+}
+input{
+    font-family: 'Kalam', cursive;
+}
+
+select{
+    font-family: 'Kalam', cursive;
+}
+
+.formatoConsulta{
+    display: block;
+    height: 100px;
+    padding: 10px;
+    text-align:left;
+    width: 650px;
+}
+
+.formatoBotones{
+    text-align: center;
+    margin: auto;
+}
+
+.formatoBoton{
+    margin: 20px;
+    padding: 8px 7px 8px 7px;
+    border-radius: 50px;
+}
+
+.formatoPD{
+    text-align: right;
+    font-weight: 600;
+    color: blueviolet;
+    font-size: 25px;
+    margin-top: 20px;
+}

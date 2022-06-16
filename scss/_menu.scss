@@ -1,0 +1,26 @@
+.menuGeneral {
+    font-family: 'Kalam', cursive;
+    top: 0;
+    z-index: 1;
+    width: auto;
+    height: 15px;
+    position: sticky;
+
+    ul {
+        @include flex (flex, wrap, space-around, center);
+
+        .menu {
+            list-style-type: none;
+            font-size: 10px;
+            font-weight: 200;
+            background-color: $color-fondo-menu;
+            padding: 6px 7px 6px 7px;
+            border-radius: 50px;
+            margin-top: 10px;  
+     
+            a {
+                color: $color-parrafos;
+            }
+        }
+    }
+}

@@ -1,0 +1,57 @@
+main {
+    .presentacion {
+        display: grid;
+        grid-template-areas: "mirada"
+                            "video"
+                            "comoSoy";
+        margin: 3rem 0rem 3rem 0rem;
+        gap: 1rem;
+
+        .mirada {
+            grid-area: mirada;
+            text-align: center;
+        }
+
+        .video {
+            grid-area: video;
+            width: 100%;
+        }
+
+        .comoSoy {
+            grid-area: comoSoy;
+            @include flex (flex, wrap, space-around, center);
+            .caracteristicas{
+                list-style-type: circle;
+                font-size: 20px;
+                font-weight: 600;
+                font-family: 'Kalam', cursive;
+            } 
+            .foto{
+                width: 100%;
+                border-radius: 50px;
+                margin: 0rem 2rem 0rem 2rem;
+            }    
+        }
+    }
+
+    .galeria{
+        grid-area: galeria;
+        .fotitos{
+            text-align: center;
+        }
+        .contenedorFotos{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            .card{
+                background-color: rgb(153, 153, 153);
+                width: 18rem;
+                text-align: center;
+                img {
+                    width: 100%;
+                }                
+            }  
+        }        
+    }   
+}

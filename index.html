@@ -5,10 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="biografía, biography, Rocío, blogpersonal">
+    <meta name="descriptions" content="Página oficial sobre la vida de Rocío Fernández">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Kalam&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
     <title>Fernandez Rocio</title>
 </head>
 
@@ -62,40 +66,43 @@
 
         <section class="galeria">
             <h2 class="fotitos">Galería</h2>
-            <section class="contenedorFotos">
-                <div class="card">
-                    <img src="./img/gato.jpg" alt="">
-                    <h3>Foto1</h3>
-                </div>
-                <div class="card">
-                    <img src="./img/gato.jpg" alt="">
-                    <h3>Foto2</h3>
-                </div>
-                <div class="card">
-                    <img src="./img/gato.jpg" alt="">
-                    <h3>Foto3</h3>
-                </div>
-                <div class="card">
-                    <img src="./img/gato.jpg" alt="">
-                    <h3>Foto4</h3>
-                </div>
-                <div class="card">
-                    <img src="./img/gato.jpg" alt="">
-                    <h3>Foto5</h3>
-                </div>
-                <div class="card">
-                    <img src="./img/gato.jpg" alt="">
-                    <h3>Foto6</h3>
-                </div>
-            </section>
+ 
         </section>
+
+        <div class="conteiner">
+            <div class="row">
+                <div id="carouselExampleControls" class="carousel slide col-12" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/gato.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/logoRTC.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/Yo.JPG" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
 
     </main>
 
     <footer>
         <div class="formatoFooter">
             <p>Autor: Fernández Rocío</p>
-            <p>Última actualización: 03/0/2022</p>
+            <p>Última actualización: 12/06/2022</p>
         </div>
     </footer>
 
